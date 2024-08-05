@@ -1,0 +1,24 @@
+BASH
+To enter into a folder 
+	cd foldername
+    	cd desktop
+To display the items in the folder
+	ls 
+	ls -a ("to display hidden folder")
+To make a folder
+	mkdir foldername
+	mkdir project
+To create a file
+	touch filename.type
+To write into a file
+	vi filename.type
+To read file
+	cat filename.type
+To delete a folder or file
+ 	rm -rf folder/file
+
+
+
+
+
+
