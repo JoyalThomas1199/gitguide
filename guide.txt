@@ -17,8 +17,48 @@ To read file
 To delete a folder or file
  	rm -rf folder/file
 
-
-
-
-
+GIT
+To initiate git
+	git init
+To display the state of the working directory and the staging area.gir
+	git status
+To add to stagging ared
+	git add .(to add all changes)
+	git add filename.type
+To go back from stagging area
+	git restore --staged filename.type
+To create a snapshot of the staged changes
+	git commit -m "comments"
+To display all commits
+	git log
+TO go back to older commit
+	git reset commitId
+To move to stash from stagging area
+	git stash
+To take back from stash
+	git stash pop
+To clear stash
+	git stash clear
+To add to a GitHub repository
+	git remote add orgin GitHub repository link
+To get GitHub link
+	git remote -v
+To push 
+	git push orgin master
+To clone someome directory to our file
+	git clone link
+To add another repository
+	git remote add upstream link
+To get new branch
+	git branch branchname
+To point to that branch
+	git checkout brachname
+To updates your local copy of all remote repositories and deletes any branches that have been removed from the remote repositories.
+	git fetch --all --prune
+To completely reset your local branch to match the main branch of the upstream remote repository
+	git reset --hard upstream/main
+To pull local branch to main brach
+	git pull upstream main
+To squash
+	git rebase -i Id
 
